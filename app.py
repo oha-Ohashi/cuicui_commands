@@ -1,6 +1,6 @@
 from flask import Flask, request
 from flask import render_template
-from .python_scripts import cuicui_command as cc
+from python_scripts import cuicui_command as cc
 
 app = Flask(__name__)
 app.config["JSON_AS_ASCII"] = False
